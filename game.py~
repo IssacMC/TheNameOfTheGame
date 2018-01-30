@@ -1,0 +1,51 @@
+class Weapon:
+	def __str__(self):
+		return self.name
+	def play():
+		inventory = [Dagger(),"Gold(5)","Crusty Bread"]
+		print("Escape from Cave Terror!")
+		
+
+class Person:
+	def __init__(self, name,age,foods):
+		self.name = name
+		self.age = age
+		self.foods = foods
+	def __str__(self):
+		return "Name: " +self.name\
+			+" Age: " + str(self.age)\
+			+" Favorite food: " +str(self.foods[0])
+	def birth_year():
+		return 2015 - age
+
+class Rock(Weapon):
+	def __init__(self):
+		self.name = "Rock"
+		self.desc = "A rock for hitting things"
+		self.damage = 5
+
+class Dagger(Weapon):
+	def __init__(self):
+		self.name = "Dagger"
+		self.desc = "A dagger for stabbing things"
+		self.damage = 10
+
+class RustySword(Weapon):
+	def __init__(self):
+		self.name = "Rusty sword"
+		self.desc = "A sword for slashing things"
+		self.damage = 20
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
